@@ -16,21 +16,23 @@ export const Menu = styled.div`
     }
     li{
         font-size: 1.5rem;
-    }
-    .link{
-        text-decoration: none;
-        color: white;       
-    }
-    .link:hover{
-        text-decoration: underline;
-    }
-    li:hover{
+
+        &:hover{
         text-decoration: none;
         transition: all 1s;
         transform: scale(1.2);
         text-decoration: dotted;
     }
-    
+    }
+    a{
+        text-decoration: none;
+        color: white;
+
+        
+        &:hover{
+            text-shadow: 0 0 10px red;
+            }
+    }    
     button{
         background-color: #2f4f4f;
         padding: 1.3vh 2vw;
