@@ -9,7 +9,7 @@ export default function Harry() {
     const[hold,setHold] = useState([]);
   //  const[status, setStatus] = useState(false);
 
-    const conexao = 'http://hp-api.herokuapp.com/api/characters'
+    const conexao = 'https://hp-api.onrender.com/api/characters'
     
     useEffect(()=>{
         axios.get(conexao).then(response=>{

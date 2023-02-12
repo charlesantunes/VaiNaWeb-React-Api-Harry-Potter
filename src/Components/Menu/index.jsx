@@ -11,7 +11,8 @@ export default function BarraMenu() {
                  <ul>
                     <li><Link to="/"><spam>Home</spam></Link></li>
                     <li><Link to="/harry-potter">Personagens</Link></li>
-                    <li><Link to="/sobre">Sobre</Link></li>
+                    <li><Link to="/sobre">Feitiçõs</Link></li>
+                    <li><Link to="/desenho">Desenho</Link></li>
                 </ul>
                 
                     <input type="text" />
